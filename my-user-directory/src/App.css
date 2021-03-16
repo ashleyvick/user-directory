@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.App {
+  height:100%;
+  background-color: black;
+}
+
+.Header{
+  margin: 0;
+  width: 100vw;
+  height: 50px;
+  background-color:rgb(83, 155, 228) ;
+  }
+
+.home{
+  margin: 0;
+  padding-left: 50px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.idCard{
+  height: 75%;
+  width: 75%;
+  background-color: white;
+  margin-left: 75px;
+  top: 30%;
+  }
+
+  .User-display{
+    padding-left: 50px;
+    padding-bottom: 30px;
+  }
+
+.user-name{
+  text-decoration: underline;     
+  text-decoration-color:rgb(83, 155, 228); 
+}
+
+.page-number{
+  text-align: end;
+  margin-right: 10px;
+}
+.navButtons{
+  width: 87%;
+  height: 10%;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Nav{
+  color: white;
+  background-color: black;
+  border: none;
+
+}
+
+.middle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Update-user{
+  background-color: rgb(83, 155, 228);
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 12px;
+  border: none;
+}
+
+
